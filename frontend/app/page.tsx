@@ -13,11 +13,11 @@ export default function Home() {
           height={38}
           priority
         />
-        
+
         <div className="text-center sm:text-left max-w-2xl">
           <h1 className="text-2xl font-bold mb-4">Technical Test - Fullstack React + Python</h1>
           <p className="text-gray-600 dark:text-gray-300 mb-6">
-            A Next.js application featuring articles management with search and filtering, 
+            A Next.js application featuring articles management with search and filtering,
             plus an integrated Finance FAQ chatbot powered by a Python service.
           </p>
         </div>
@@ -43,7 +43,7 @@ export default function Home() {
           </Link>
           <a
             className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto"
-            href="https://github.com"
+            href="https://github.com/Tsirimaholy/chat-art"
             target="_blank"
             rel="noopener noreferrer"
           >

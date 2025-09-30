@@ -36,14 +36,13 @@ cd chat-art
 cd frontend
 npm install
 
+# Environment configuration
+# Edit .env.local with your configuration
+cp .env.local.example .env
 # Database setup
 npm run db:generate
 npm run db:push
 npm run db:seed
-
-# Environment configuration
-cp .env.local.example .env.local
-# Edit .env.local with your configuration
 
 # Start development server
 npm run dev
