@@ -6,8 +6,8 @@ A complete fullstack application featuring a Next.js frontend for articles manag
 ## Project Structure
 
 ```
-taram/
-├── artit/                    # Next.js Frontend Application
+chat-art/
+├── frontend/                    # Next.js Frontend Application
 │   ├── app/                  # Next.js App Router (pages & API routes)
 │   ├── components/           # React components (articles, chat)
 │   ├── prisma/              # Database schema & seed data
@@ -27,13 +27,13 @@ taram/
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
-cd taram
+git clone https://github.com/Tsirimaholy/chat-art.git
+cd chat-art
 ```
 
 ### 2. Setup Next.js Frontend
 ```bash
-cd artit
+cd frontend
 npm install
 
 # Database setup
@@ -98,7 +98,7 @@ The Python service will be available at: **http://localhost:8001**
 ### Integration
 - **Chat Widget**: Integrated chat interface on articles page
 - **Real-time Communication**: Frontend ↔ API Route ↔ Python Service
-- **Error Handling**: Graceful fallbacks when services are unavailable
+-- **Error Handling**: Graceful fallbacks when services are unavailable
 - **TypeScript**: Full type safety throughout the application
 
 ## Technical Choices
@@ -147,7 +147,7 @@ GET  /docs          # Interactive API documentation
 
 ### Frontend Tests
 ```bash
-cd artit
+cd frontend
 npm run test        # Run tests in watch mode
 npm run test:run    # Run tests once
 ```
@@ -196,7 +196,7 @@ curl "http://localhost:3000/api/articles?query=EBITDA&sort=desc"
 ```bash
 curl -X POST "http://localhost:8001/chat" \
   -H "Content-Type: application/json" \
-  -d '{"message": "What is EBITDA?"}'
+  -d '''{"message": "What is EBITDA?"}'''
 ```
 
 ## Development Scripts
@@ -237,6 +237,6 @@ pytest             # Run tests
 
 For comprehensive documentation of each component:
 
-- **[Frontend Documentation](./artit/README.md)** - Next.js app setup, components, and API details
+- **[Frontend Documentation](./frontend/README.md)** - Next.js app setup, components, and API details
 - **[Python Service Documentation](./python-service/README.md)** - FastAPI service, FAQ matching, and deployment
-- **[Implementation Summary](./artit/IMPLEMENTATION_SUMMARY.md)** - Technical implementation details
+- **[Implementation Summary](./frontend/IMPLEMENTATION_SUMMARY.md)** - Technical implementation details
