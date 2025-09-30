@@ -6,7 +6,7 @@ export default function Home() {
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
-          className="dark:invert"
+          className="light:invert"
           src="/next.svg"
           alt="Next.js logo"
           width={180}
@@ -16,13 +16,13 @@ export default function Home() {
 
         <div className="text-center sm:text-left max-w-2xl">
           <h1 className="text-2xl font-bold mb-4">Technical Test - Fullstack React + Python</h1>
-          <p className="text-gray-600 dark:text-gray-300 mb-6">
+          <p className="text-gray-600 mb-6">
             A Next.js application featuring articles management with search and filtering,
             plus an integrated Finance FAQ chatbot powered by a Python service.
           </p>
         </div>
 
-        <div className="bg-gray-50 dark:bg-gray-900 rounded-lg p-6 max-w-2xl">
+        <div className="bg-gray-50 light:bg-gray-900 rounded-lg p-6 max-w-2xl">
           <h2 className="text-lg font-semibold mb-4">🚀 Features</h2>
           <ul className="space-y-2 text-sm">
             <li>• Articles management with search and date sorting</li>
@@ -39,16 +39,16 @@ export default function Home() {
             href="/articles"
             className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-blue-600 text-white gap-2 hover:bg-blue-700 font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
           >
-            📚 View Articles & Chat
+            View Articles & Chat
           </Link>
           <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto"
+            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto"
             href="https://github.com/Tsirimaholy/chat-art"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image
-              className="dark:invert"
+              className="light:invert"
               src="/window.svg"
               alt="GitHub icon"
               width={16}

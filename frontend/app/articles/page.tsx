@@ -25,22 +25,21 @@ export default async function ArticlesPage({ searchParams }: PageProps) {
               name="query"
               defaultValue={query}
               placeholder="Search articles..."
-              className="border border-gray-300 rounded-md px-3 py-2 w-full"
+              className="border rounded-md px-3 py-2 w-full"
             />
             <div className="flex flex-col">
-              <label htmlFor="sort">Sort date:</label>
               <select
                 name="sort"
                 defaultValue={sort}
                 className="border border-gray-300 rounded-md px-3 py-2"
               >
-                <option value="asc">Ascending</option>
-                <option value="desc">Descending</option>
+                <option value="asc">Newest First</option>
+                <option value="desc">Oldest First</option>
               </select>
             </div>
             <button
               type="submit"
-              className="bg-blue-500 text-white px-4 py-2 rounded-md"
+              className="bg-black cursor-pointer text-white font-bold px-4 py-2 rounded-md"
             >
               Search
             </button>
@@ -49,7 +48,7 @@ export default async function ArticlesPage({ searchParams }: PageProps) {
             <ArticleList query={query} sort={sort} />
           </Suspense>
         </div>
-        
+
         {/* Chat Widget Sidebar */}
         <div className="w-80 flex-shrink-0">
           <div className="sticky top-4">

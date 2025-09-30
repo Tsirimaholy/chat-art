@@ -4,7 +4,7 @@ export default function Loading() {
       {Array.from({ length: 5 }).map((_, i) => (
         <div
           key={i}
-          className="animate-pulse border p-4 rounded-lg shadow-sm space-y-2"
+          className="animate-pulse p-4 rounded-lg shadow-sm space-y-2"
         >
           {/* Title placeholder */}
           <div className="h-5 bg-gray-300 rounded w-2/3" />

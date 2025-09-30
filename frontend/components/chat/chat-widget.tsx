@@ -64,24 +64,24 @@ export function ChatWidget() {
   };
 
   return (
-    <div className="bg-white border rounded-lg shadow-sm p-4 max-w-md">
+    <div className="bg-white rounded-lg shadow-sm p-4 max-w-md">
       <h3 className="text-lg font-semibold mb-4 text-gray-800">Finance FAQ Chat</h3>
-      
+
       {/* Messages Container */}
-      <div className="h-64 overflow-y-auto mb-4 space-y-2 border rounded p-2 bg-gray-50">
+      <div className="h-64 overflow-y-auto mb-4 space-y-2 rounded p-2 bg-gray-50">
         {state.messages.length === 0 && (
           <div className="text-gray-500 text-sm text-center py-8">
             Ask me anything about finance! Try questions about EBITDA, margins, cash flow, etc.
           </div>
         )}
-        
+
         {state.messages.map((msg) => (
           <div key={msg.id} className={`flex ${msg.type === "user" ? "justify-end" : "justify-start"}`}>
             <div
               className={`max-w-xs px-3 py-2 rounded-lg text-sm ${
                 msg.type === "user"
                   ? "bg-blue-500 text-white"
-                  : "bg-white border text-gray-800"
+                  : "bg-white  text-gray-800"
               }`}
             >
               <div>{msg.content}</div>
@@ -94,7 +94,7 @@ export function ChatWidget() {
             </div>
           </div>
         ))}
-        
+
         {state.isLoading && (
           <div className="flex justify-start">
             <div className="bg-white border rounded-lg px-3 py-2 text-sm text-gray-600">

@@ -16,7 +16,7 @@ export async function ArticleList({ query, sort }: ArticlesWithSuspenseProps) {
     <ul className="space-y-2">
       {articles.length > 0 ? (
         articles.map((article) => (
-          <li key={article.id} className="p-3 rounded-lg border">
+          <li key={article.id} className="p-3 rounded-lg bg-gray-50">
             <h2 className="font-semibold">{article.title}</h2>
             {article.summary && (
               <p className="text-gray-600 text-sm mt-1">{article.summary}</p>
