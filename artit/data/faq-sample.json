@@ -1,0 +1,78 @@
+[
+  {
+    "id": "faq#ebitda",
+    "q": "Qu'est-ce que l'EBITDA ?",
+    "a": "L'EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) est un indicateur de performance opérationnelle qui mesure la rentabilité d'une entreprise avant les intérêts, impôts, dépréciations et amortissements. Il permet d'évaluer la capacité de génération de cash-flow opérationnel."
+  },
+  {
+    "id": "faq#marge-brute",
+    "q": "À quoi sert la marge brute ?",
+    "a": "La marge brute mesure la part du chiffre d'affaires restant après déduction du coût des ventes. Elle est utile pour suivre la performance commerciale, l'efficacité du pricing et la capacité à couvrir les coûts variables. Une marge brute élevée indique une bonne maîtrise des coûts directs."
+  },
+  {
+    "id": "faq#marge-nette",
+    "q": "Quelle est la différence entre marge brute et marge nette ?",
+    "a": "La marge brute se calcule après déduction des coûts des ventes, tandis que la marge nette inclut tous les coûts (opérationnels, financiers, fiscaux). La marge brute mesure l'efficacité commerciale, la marge nette la rentabilité globale de l'entreprise."
+  },
+  {
+    "id": "faq#flux-tresorerie",
+    "q": "Comment interpréter les flux de trésorerie ?",
+    "a": "Les flux de trésorerie montrent les mouvements réels de liquidités. Le flux opérationnel révèle la capacité à générer du cash par l'activité, le flux d'investissement montre les dépenses en capital, et le flux de financement indique les relations avec les actionnaires et créanciers."
+  },
+  {
+    "id": "faq#ratio-liquidite",
+    "q": "Qu'est-ce que le ratio de liquidité ?",
+    "a": "Le ratio de liquidité générale (actif circulant / passif circulant) mesure la capacité d'une entreprise à honorer ses dettes à court terme. Un ratio supérieur à 1 indique théoriquement une situation saine, mais il faut analyser la qualité des actifs circulants."
+  },
+
+  {
+    "id": "faq#roe",
+    "q": "Comment calculer et interpréter le ROE ?",
+    "a": "Le ROE (Return on Equity) se calcule : Résultat net / Capitaux propres. Il mesure la rentabilité pour les actionnaires. Un ROE élevé peut indiquer une bonne performance, mais aussi un endettement important (effet de levier). Il faut l'analyser avec d'autres ratios."
+  },
+  {
+    "id": "faq#bfr",
+    "q": "Qu'est-ce que le besoin en fonds de roulement ?",
+    "a": "Le BFR représente le décalage entre les encaissements et décaissements liés à l'exploitation. BFR = Stocks + Créances clients - Dettes fournisseurs. Un BFR positif nécessite un financement, un BFR négatif génère des ressources."
+  },
+  {
+    "id": "faq#eva",
+    "q": "Qu'est-ce que la valeur économique ajoutée (EVA) ?",
+    "a": "L'EVA mesure la création de valeur réelle en déduisant du résultat opérationnel le coût du capital investi. EVA = NOPAT - (Capital investi × Coût du capital). Elle indique si l'entreprise détruit ou crée de la valeur pour ses actionnaires."
+  },
+  {
+    "id": "faq#ratio-endettement",
+    "q": "Comment mesurer l'endettement d'une entreprise ?",
+    "a": "Principaux ratios : Dette nette/EBITDA (capacité de remboursement), Dette/Capitaux propres (structure financière), Couverture d'intérêts (EBITDA/Charges financières). Ces ratios évaluent le risque financier et la solvabilité."
+  },
+  {
+    "id": "faq#croissance-organique",
+    "q": "Différence entre croissance organique et externe ?",
+    "a": "La croissance organique provient du développement interne (nouveaux produits, marchés, investissements propres). La croissance externe résulte d'acquisitions, fusions, partenariats. La croissance organique est plus prévisible mais souvent plus lente."
+  },
+  {
+    "id": "faq#point-mort",
+    "q": "Comment calculer le point mort ?",
+    "a": "Le point mort (seuil de rentabilité) = Charges fixes / Taux de marge sur coûts variables. Il indique le niveau de chiffre d'affaires nécessaire pour couvrir tous les coûts. Utile pour la planification et l'analyse de sensibilité."
+  },
+  {
+    "id": "faq#valorisation-dcf",
+    "q": "Qu'est-ce que la méthode DCF ?",
+    "a": "La méthode DCF (Discounted Cash Flow) valorise une entreprise en actualisant ses flux de trésorerie futurs. Valeur = Σ (FCF / (1+WACC)^n) + Valeur terminale actualisée. Elle reflète la capacité intrinsèque à générer de la valeur."
+  },
+  {
+    "id": "faq#wacc",
+    "q": "Comment calculer le WACC ?",
+    "a": "WACC = (E/V × Re) + (D/V × Rd × (1-T)), où E=capitaux propres, D=dette, V=valeur totale, Re=coût des fonds propres, Rd=coût de la dette, T=taux d'impôt. Il représente le coût moyen pondéré du capital."
+  },
+  {
+    "id": "faq#budget-previsionnel",
+    "q": "Comment construire un budget prévisionnel ?",
+    "a": "Étapes : 1) Hypothèses de marché et stratégie, 2) Prévisions de ventes, 3) Coûts variables et fixes, 4) Investissements, 5) Financement, 6) Compte de résultat, bilan et flux prévisionnels. Importante cohérence entre les documents."
+  },
+  {
+    "id": "faq#analyse-sectorielle",
+    "q": "Comment analyser un secteur d'activité ?",
+    "a": "Analyser : taille et croissance du marché, forces concurrentielles (Porter), barrières à l'entrée, réglementation, cycles économiques, innovation, rentabilité moyenne. Comparer les KPI sectoriels aux performances de l'entreprise étudiée."
+  }
+]
