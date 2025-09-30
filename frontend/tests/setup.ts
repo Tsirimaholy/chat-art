@@ -7,7 +7,12 @@ vi.mock('next/server', () => ({
     nextUrl: {
       searchParams: new URLSearchParams(new URL(url).search),
     },
-    json: vi.fn().mockResolvedValue(init?.body ? JSON.parse(init.body as string) : {}),
+    json: async () => {
+      if (init?.body) {
+        return JSON.parse(init.body as string);
+      }
+      return {};
+    },
   })),
   NextResponse: {
     json: vi.fn().mockImplementation((data: any, init?: ResponseInit) => ({
