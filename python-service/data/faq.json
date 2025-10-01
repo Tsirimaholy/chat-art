@@ -1,0 +1,77 @@
+[
+  {
+    "id": "faq#ebitda",
+    "q": "Qu'est-ce que l'EBITDA ?",
+    "a": "L'EBITDA (Earnings Before Interest, Taxes, Depreciation and Amortization) est un indicateur de performance opérationnelle avant intérêts, impôts, dépréciations et amortissements. Il permet d'évaluer la rentabilité d'exploitation pure d'une entreprise."
+  },
+  {
+    "id": "faq#marge-brute",
+    "q": "À quoi sert la marge brute ?",
+    "a": "Elle mesure la part du chiffre d'affaires restant après le coût des ventes. C'est un indicateur clé pour suivre la performance commerciale et la stratégie de pricing."
+  },
+  {
+    "id": "faq#marge-nette",
+    "q": "Quelle est la différence entre marge brute et marge nette ?",
+    "a": "La marge brute se calcule après les coûts de production, tandis que la marge nette prend en compte toutes les charges (opérationnelles, financières, fiscales). La marge nette représente le bénéfice final."
+  },
+  {
+    "id": "faq#cash-flow",
+    "q": "Qu'est-ce que le flux de trésorerie ?",
+    "a": "Le cash flow (flux de trésorerie) représente les mouvements d'argent entrants et sortants d'une entreprise. Le flux de trésorerie opérationnel mesure la capacité à générer du cash par l'activité courante."
+  },
+  {
+    "id": "faq#fcf",
+    "q": "C'est quoi le Free Cash Flow ?",
+    "a": "Le Free Cash Flow (FCF) est le cash flow libre après déduction des investissements nécessaires (CAPEX). Il représente la trésorerie disponible pour rémunérer les actionnaires ou réduire la dette."
+  },
+  {
+    "id": "faq#roe",
+    "q": "Comment calculer le ROE ?",
+    "a": "Le ROE (Return on Equity) se calcule en divisant le bénéfice net par les capitaux propres. Il mesure la rentabilité des fonds investis par les actionnaires. Un ROE élevé indique une bonne utilisation du capital."
+  },
+  {
+    "id": "faq#working-capital",
+    "q": "Qu'est-ce que le working capital ?",
+    "a": "Le working capital (besoin en fonds de roulement) représente le montant nécessaire pour financer le cycle d'exploitation. Il se calcule : actifs courants moins passifs courants."
+  },
+  {
+    "id": "faq#ratio-liquidite",
+    "q": "À quoi sert le ratio de liquidité ?",
+    "a": "Le ratio de liquidité mesure la capacité d'une entreprise à honorer ses dettes à court terme avec ses actifs liquides. Un ratio supérieur à 1 indique une bonne santé financière à court terme."
+  },
+  {
+    "id": "faq#dette-nette",
+    "q": "Comment calculer la dette nette ?",
+    "a": "La dette nette = dette financière brute - trésorerie et équivalents. C'est un indicateur clé du levier financier et de la capacité de remboursement de l'entreprise."
+  },
+  {
+    "id": "faq#pe-ratio",
+    "q": "Qu'est-ce que le ratio PER ?",
+    "a": "Le PER (Price to Earnings Ratio) est le ratio cours/bénéfice. Il compare le prix d'une action au bénéfice par action. Un PER élevé peut indiquer que le marché anticipe une forte croissance."
+  },
+  {
+    "id": "faq#goodwill",
+    "q": "C'est quoi le goodwill ?",
+    "a": "Le goodwill (survaleur) est un actif incorporel représentant l'écart entre le prix d'acquisition d'une entreprise et la valeur de ses actifs nets. Il reflète des éléments comme la réputation ou la clientèle."
+  },
+  {
+    "id": "faq#capex",
+    "q": "Qu'est-ce que le CAPEX ?",
+    "a": "Le CAPEX (Capital Expenditure) désigne les dépenses d'investissement en immobilisations (équipements, bâtiments, technologies). Ce sont des investissements long terme pour développer l'activité."
+  },
+  {
+    "id": "faq#ebit",
+    "q": "Différence entre EBIT et EBITDA ?",
+    "a": "L'EBIT (Earnings Before Interest and Taxes) inclut les amortissements et dépréciations, contrairement à l'EBITDA. L'EBITDA est donc toujours supérieur ou égal à l'EBIT."
+  },
+  {
+    "id": "faq#roi",
+    "q": "Comment mesurer le ROI ?",
+    "a": "Le ROI (Return on Investment) mesure la rentabilité d'un investissement : (Gain - Coût) / Coût × 100. C'est un indicateur simple pour évaluer l'efficacité d'un projet ou investissement."
+  },
+  {
+    "id": "faq#breakeven",
+    "q": "C'est quoi le point mort ?",
+    "a": "Le point mort (breakeven) est le niveau d'activité où les revenus couvrent exactement les charges. Au-delà, l'entreprise devient profitable. C'est un seuil critique en gestion."
+  }
+]
